@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run analysis demo",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/analysis_engine.py",
+      "console": "integratedTerminal",
+      "args": ["--demo"]
+    },
+    {
+      "name": "Run scraper",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/scraper.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
